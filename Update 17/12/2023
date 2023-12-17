@@ -1,0 +1,11 @@
+Now with 2 outputs 1 for turning right and 1 for turning left
+
+OR
+
+1 output for both
+
+pulse 10 milliseconds for turning right
+
+pulse 20 milliseconds for turning left
+
+ATTINY45 and ESP32 2 inputs and ESP32 1 input program in .pdf file
