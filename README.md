@@ -1,6 +1,6 @@
 # EC11-rotary-encoder-the-easy-way
 
-what do we need
+# what do we need
 
 1x	ATTINY45
 
@@ -10,11 +10,9 @@ what do we need
 
 1x 	EC11
 
-We have 2 options for the connection to the main MCU
+# We have 2 options for the connection to the main MCU
 
-
-
-with 2 outputs
+# with 2 outputs
 
 1x pulse output when turning right
 
@@ -22,15 +20,13 @@ with 2 outputs
 
 The ATTINY45 provides 20 millisecond pulses on either the right turn output or the left turn output.
 
-
-
-or with 1 output
+# with 1 output
 
 1x output
 
 The ATTINY45 delivers either 10 millisecond pulses when turning clockwise or 20 millisecond pulses when turning counterclockwise on the same output.
 
-Thanks to
+# Thanks to
 
 https://www.elektormagazine.nl/labs/rotary-encoder-on-a-single-mcu-pin
 
@@ -38,7 +34,7 @@ for the 1 input idea
 
 
 
-Remark:
+# Remark:
 
 When using an ATTINY with more GPIOs such as the ATTINY44, it is possible to also code the push button via the same output
 
@@ -52,7 +48,7 @@ This means we still stay within the 40 milliseconds that are currently used for 
 
 
 
-Further specifications
+# Further specifications
 
 power supply 3.3V or 5V
 
