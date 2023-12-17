@@ -13,6 +13,7 @@ what do we need
 We have 2 options for the connection to the main MCU
 
 
+
 with 2 outputs
 
 1x pulse output when turning right
@@ -20,6 +21,8 @@ with 2 outputs
 1x pulse output when turning left
 
 The ATTINY45 provides 20 millisecond pulses on either the right turn output or the left turn output.
+
+
 
 or with 1 output
 
@@ -34,6 +37,7 @@ https://www.elektormagazine.nl/labs/rotary-encoder-on-a-single-mcu-pin
 for the 1 input idea
 
 
+
 Remark:
 
 When using an ATTINY with more GPIOs such as the ATTINY44, it is possible to also code the push button via the same output
@@ -45,6 +49,7 @@ When using an ATTINY with more GPIOs such as the ATTINY44, it is possible to als
 30 milliseconds > push button.
 
 This means we still stay within the 40 milliseconds that are currently used for 1 pulse.
+
 
 
 Further specifications
