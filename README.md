@@ -1,5 +1,7 @@
 # EC11-rotary-encoder-the-easy-way
 
+# As rotary encoder
+
 # what do we need
 
 1x	ATTINY45
@@ -26,27 +28,44 @@ The ATTINY45 provides 20 millisecond pulses on either the right turn output or t
 
 The ATTINY45 delivers either 10 millisecond pulses when turning clockwise or 20 millisecond pulses when turning counterclockwise on the same output.
 
-# Thanks to
-
-https://www.elektormagazine.nl/labs/rotary-encoder-on-a-single-mcu-pin
-
-for the 1 input idea
 
 
 
-# Remark:
+# As rotary encoder with push button
 
-When using an ATTINY with more GPIOs such as the ATTINY44, it is possible to also code the push button via the same output
+# what do we need
 
-10 milliseconds > turn right
+1x	ATTINY84
 
-20 milliseconds > turn left
+3x	4K7
 
-30 milliseconds > push button.
+1x	10K
 
-This means we still stay within the 40 milliseconds that are currently used for 1 pulse.
+1x 	EC11 with pushbutton
 
+# We have 2 options for the connection to the main MCU
 
+# with 2 outputs
+
+1x pulse output when turning right
+
+1x pulse output when turning left
+
+The ATTINY84 provides 20 millisecond pulses on either the right turn output or the left turn output.
+
+Push button must be connected separately to main MCU
+
+# with 1 output
+
+The ATTINY84 delivers 
+
+10 milliseconds pulses when turning clockwise
+
+20 milliseconds pulses when turning counterclockwise
+
+30 milliseconds pulse when push button is pressed
+
+and this on the same digital output
 
 # Further specifications
 
@@ -62,4 +81,12 @@ cheap about 3€
 
 easy to build
 
-PROGRAM IN .pdf FILE
+# Thanks to
+
+https://www.elektormagazine.nl/labs/rotary-encoder-on-a-single-mcu-pin
+
+for the 1 input idea
+
+
+
+PROGRAM ATTINY45, ATTINY84 AND ESP32 test programs IN .pdf FILE
