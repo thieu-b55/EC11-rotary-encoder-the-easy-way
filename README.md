@@ -1,8 +1,8 @@
 # EC11-rotary-encoder-the-easy-way (on a single mcu input pin)
 
-# As rotary encoder without push button
+## As rotary encoder without push button
 
-# what do we need
+### what do we need
 
 1x	ATTINY45
 
@@ -12,9 +12,9 @@
 
 1x 	EC11
 
-# We have 2 options for the connection to the main MCU
+### We have 2 options for the connection to the main MCU
 
-# with 2 outputs
+### with 2 outputs
 
 1x pulse output when turning right
 
@@ -22,7 +22,7 @@
 
 The ATTINY45 provides 20 millisecond pulses on either the right turn output or the left turn output.
 
-# with 1 output
+### with 1 output
 
 1x output
 
@@ -31,9 +31,9 @@ The ATTINY45 delivers either 10 millisecond pulses when turning clockwise or 20 
 
 
 
-# As rotary encoder with push button
+## As rotary encoder with push button
 
-# what do we need
+### what do we need
 
 1x	ATTINY84
 
@@ -43,9 +43,9 @@ The ATTINY45 delivers either 10 millisecond pulses when turning clockwise or 20 
 
 1x 	EC11 with pushbutton
 
-# We have 2 options for the connection to the main MCU
+### We have 2 options for the connection to the main MCU
 
-# with 2 outputs
+### with 2 outputs
 
 1x pulse output when turning right
 
@@ -55,7 +55,7 @@ The ATTINY84 provides 20 millisecond pulses on either the right turn output or t
 
 Push button must be connected separately to main MCU
 
-# with 1 output
+### with 1 output
 
 The ATTINY84 delivers 
 
