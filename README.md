@@ -89,4 +89,4 @@ for the 1 input idea
 
 
 
-### PROGRAM ATTINY45, ATTINY84 AND ESP32 test programs in .pdf FILE
+### Program ATTINY45, ATTINY84 AND ESP32 test programs in .pdf FILE
