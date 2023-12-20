@@ -1,6 +1,6 @@
-# EC11-rotary-encoder-the-easy-way
+# EC11-rotary-encoder-the-easy-way (on a single mcu input pin)
 
-# As rotary encoder
+# As rotary encoder without push button
 
 # what do we need
 
