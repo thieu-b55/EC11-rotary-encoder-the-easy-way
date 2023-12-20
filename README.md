@@ -67,7 +67,7 @@ The ATTINY84 delivers
 
 and this on the same digital output
 
-# Further specifications
+### Further specifications
 
 power supply 3.3V or 5V
 
@@ -81,7 +81,7 @@ cheap about 3€
 
 easy to build
 
-# Thanks to
+### Thanks to
 
 https://www.elektormagazine.nl/labs/rotary-encoder-on-a-single-mcu-pin
 
@@ -89,4 +89,4 @@ for the 1 input idea
 
 
 
-PROGRAM ATTINY45, ATTINY84 AND ESP32 test programs IN .pdf FILE
+### PROGRAM ATTINY45, ATTINY84 AND ESP32 test programs in .pdf FILE
